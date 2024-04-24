@@ -6,6 +6,11 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
+#if folder isn't found, it will be created
+if [ ! -d backup ]; then
+  mkdir backup
+fi
+
 LOG_FILE="$1"
 BACKUP_DIR="backup"
 KEYWORDS=("error" "warning" "critical")
