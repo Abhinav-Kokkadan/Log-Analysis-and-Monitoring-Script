@@ -4,7 +4,7 @@ Usage
 To use the script, run the following command:
 
 bash
-        ./log-monitor.sh <log_file>
+#  ./log-monitor.sh <log_file>
 
 Replace <log_file> with the path to the log file you want to monitor.
 Functionality
@@ -21,9 +21,9 @@ Error Handling and Logging
 The script includes basic error handling and logging to provide feedback on script execution.
 Additional Features
 
-    The script backs up the log file with a timestamp for historical data preservation.
+ The script backs up the log file with a timestamp for historical data preservation.
 
 Prerequisites
 
-    Bash shell environment.
-    Log file to monitor.
+ Bash shell environment.
+ Log file to monitor.
