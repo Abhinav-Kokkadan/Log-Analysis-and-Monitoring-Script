@@ -1,5 +1,5 @@
 # Log Analysis and Monitoring Script
-This script automates the analysis and monitoring of log files, fulfilling the requirements outlined in the DevOps Internship Assignment.
+This script automates the analysis and monitoring of log files, the DevOps  Assignment.
 Usage
 To use the script, run the following command:
 
