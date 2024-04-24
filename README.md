@@ -4,18 +4,18 @@ Usage
 To use the script, run the following command:
 
 bash
-./log-monitor.sh <log_file>
+        ./log-monitor.sh <log_file>
 
 Replace <log_file> with the path to the log file you want to monitor.
 Functionality
 The script performs the following functionalities:
 
-    Continuously monitors a specified log file for new entries.
-    Uses tail to track and display new log entries in real time.
-    Allows you to stop the monitoring loop by pressing Ctrl+C.
-    Counts occurrences of specific keywords (error, warning, critical) in the log file.
-    Generates a summary report of keyword occurrences.
-    Backs up the log file with a timestamp in the backup directory.
+   * Continuously monitors a specified log file for new entries.
+   * Uses tail to track and display new log entries in real time.
+   * Allows you to stop the monitoring loop by pressing Ctrl+C.
+   * Counts occurrences of specific keywords (error, warning, critical) in the log file.
+   * Generates a summary report of keyword occurrences.
+   * Backs up the log file with a timestamp in the backup directory.
 
 Error Handling and Logging
 The script includes basic error handling and logging to provide feedback on script execution.
